@@ -6,5 +6,5 @@ def load_env():
     return os.getenv("GEMINI_API_KEY")
 
 def normalize_text(text):
-    """Normalize text for consistent comparisons."""
+    """Normalize text for consistent comparisons"""
     return text.strip().lower().replace("&", "and")
