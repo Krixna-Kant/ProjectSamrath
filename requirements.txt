@@ -1,0 +1,6 @@
+pandas>=1.4
+requests>=2.28
+streamlit>=1.20
+pyarrow>=8.0    #for parquet if needed
+scipy>=1.10     #for correlation
+python-dotenv>=1.0  #for env variables
